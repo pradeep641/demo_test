@@ -1,4 +1,0 @@
-id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
-access_hotel_room,hotel.room,model_hotel_room,group_hotel_manager,1,1,1,1
-access_hotel_reservation,hotel.reservation,model_hotel_reservation,group_hotel_staff,1,0,1,0
-access_housekeeping_task,housekeeping.task,model_housekeeping_task,group_hotel_staff,1,1,1,1
