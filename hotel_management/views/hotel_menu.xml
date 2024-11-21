@@ -1,0 +1,10 @@
+<odoo>
+    <!-- Main Menu -->
+    <menuitem id="hotel_management_menu" name="Hotel Management" sequence="10"/>
+
+    <!-- Submenus for Hotel Management -->
+    <menuitem id="room_menu" name="Rooms" parent="hotel_management_menu" sequence="1" action="action_hotel_room"/>
+    <menuitem id="reservation_menu" name="Reservations" parent="hotel_management_menu" sequence="2" action="action_hotel_reservation"/>
+    <menuitem id="housekeeping_menu" name="Housekeeping" parent="hotel_management_menu" sequence="3" action="action_housekeeping_task"/>
+    <menuitem id="restaurant_menu" name="Restaurant" parent="hotel_management_menu" sequence="4" action="action_restaurant_order"/>
+</odoo>
